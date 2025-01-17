@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+.debug{
+    nav{
+        background-color: skyblue;
+        
+    }
+    .nav-logo{
+        background-color: yellow;
+
+    }
+    .nav-link{
+        background-color: yellow;
+        
+    }
+    .nav-login{
+     background-color: yellow;       
+    }
+}
+nav{
+    width: 100%;
+    padding: 1rem 0;
+   
+}
+.nav-content{
+    width: 60%;
+    margin: auto;
+    div{
+        padding: 0.5em;
+    }
+    
+}
+
+.d-flex{
+    display: flex;
+}
+.nav-logo{
+    width: 20%;
+}
+.nav-login{
+    width: 20%;
+    text-align: end;
+}
+.nav-link{ 
+    width: 60%;
+    ul{
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+    }
+    
+
+    li{
+        
+    }
+}
