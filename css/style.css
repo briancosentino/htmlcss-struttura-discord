@@ -10,16 +10,18 @@
         background-color: skyblue;
         
     }
+    
     .nav-logo{
         background-color: yellow;
-
+        border: 1px dashed black;
     }
     .nav-link{
         background-color: yellow;
-        
+        border: 1px dashed black;
     }
     .nav-login{
      background-color: yellow;       
+     border: 1px dashed black;
     }
     .hero{
         background-color: rgb(59, 0, 114);
@@ -29,9 +31,11 @@
     }
     .section-img{
         background-color: blue;
+        border: 1px dashed black;
     }
     .section-description{
         background-color: pink;
+        border: 1px dashed black;
     }
     .main-section-reverse{
         background-color: rgb(213, 211, 211);
@@ -41,18 +45,31 @@
     }
     .technology-content{
         background-color: green;
+        border: 1px dashed black;
     }
     .footer-link{
         background-color: #333;
     }
-    .footer-link-container{
-        background-color: rgb(213, 211, 211);
-    }
+    
     .footer-contact{
         background-color: palevioletred;
+        border: 1px dashed black;
     }
     .footer-column{
         background-color: cyan;
+        border: 1px dashed white;
+    }
+    .footer-button{
+        background-color: #333;
+        
+    }
+    .footer-button-container{
+        background-color: aquamarine;
+    }
+    .footer-logo, .footer-btn>button
+    {
+        background-color: palevioletred;
+        border: 1px dashed black;
     }
 }
 nav{
@@ -143,8 +160,20 @@ nav{
     width: 70%;
 }
 .footer-column{
-    width: 24%;
+    width: 25%;
 }
 hr {
     border-color: rgb(213, 211, 211);
+}
+.footer-button{
+    padding: 2rem;
+}
+.footer-button-container{
+    margin: auto;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 60%;
+}
+.footer-btn> button, .footer-logo{
+    padding: 0.2rem 0.4rem;
 }
