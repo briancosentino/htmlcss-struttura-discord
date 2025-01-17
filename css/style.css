@@ -27,6 +27,12 @@
     .hero-content{
         background-color: rgb(255, 133, 235);
     }
+    .section-img{
+        background-color: blue;
+    }
+    .section-description{
+        background-color: pink;
+    }
 }
 nav{
     width: 100%;
@@ -69,4 +75,19 @@ nav{
     width: 50%;
     margin: auto;
     min-height: 15rem;
+}
+.main-section{
+    padding: 2rem;
+}
+.section-content{
+    width: 60%;
+    min-height: 20rem;
+    align-items: stretch;
+    margin: auto;
+}
+.section-img{
+    width: 60%;
+}
+.section-description{
+    width: 40%;
 }
