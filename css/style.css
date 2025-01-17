@@ -36,6 +36,12 @@
     .main-section-reverse{
         background-color: rgb(213, 211, 211);
     }
+    #technology{
+        background-color: rgb(213, 211, 211);;
+    }
+    .technology-content{
+        background-color: green;
+    }
 }
 nav{
     width: 100%;
@@ -99,4 +105,9 @@ nav{
 }
 .main-section-reverse{
     padding: 2rem;
+}
+.technology-content{
+    min-height: 45rem;
+    margin: auto;
+    width: 60%;
 }
