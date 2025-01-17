@@ -42,6 +42,18 @@
     .technology-content{
         background-color: green;
     }
+    .footer-link{
+        background-color: #333;
+    }
+    .footer-link-container{
+        background-color: rgb(213, 211, 211);
+    }
+    .footer-contact{
+        background-color: palevioletred;
+    }
+    .footer-column{
+        background-color: cyan;
+    }
 }
 nav{
     width: 100%;
@@ -110,4 +122,29 @@ nav{
     min-height: 45rem;
     margin: auto;
     width: 60%;
+}
+.footer-link{
+    padding: 1rem 2rem 2rem 2rem;
+}
+.footer-link-container{
+    margin: auto;
+    width: 60%;
+    min-height: 30rem;
+   
+
+}
+.footer-contact{
+    width: 30%;
+
+}
+.footer-col-container{
+    justify-content: space-between;
+   
+    width: 70%;
+}
+.footer-column{
+    width: 24%;
+}
+hr {
+    border-color: rgb(213, 211, 211);
 }
