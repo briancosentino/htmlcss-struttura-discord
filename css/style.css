@@ -21,6 +21,12 @@
     .nav-login{
      background-color: yellow;       
     }
+    .hero{
+        background-color: rgb(59, 0, 114);
+    }
+    .hero-content{
+        background-color: rgb(255, 133, 235);
+    }
 }
 nav{
     width: 100%;
@@ -54,8 +60,13 @@ nav{
     gap: 1rem;
     }
     
-
-    li{
-        
-    }
+}
+.hero{
+    width: 100%;
+    padding: 2rem;
+}
+.hero-content{
+    width: 50%;
+    margin: auto;
+    min-height: 15rem;
 }
