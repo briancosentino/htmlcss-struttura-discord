@@ -33,6 +33,9 @@
     .section-description{
         background-color: pink;
     }
+    .main-section-reverse{
+        background-color: rgb(213, 211, 211);
+    }
 }
 nav{
     width: 100%;
@@ -81,7 +84,7 @@ nav{
 }
 .section-content{
     width: 60%;
-    min-height: 20rem;
+    min-height: 23rem;
     align-items: stretch;
     margin: auto;
 }
@@ -90,4 +93,10 @@ nav{
 }
 .section-description{
     width: 40%;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.main-section-reverse{
+    padding: 2rem;
 }
